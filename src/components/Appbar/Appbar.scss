@@ -1,9 +1,11 @@
+@import "../../styles//variables";
+
 .appbar {
   display: flex;
   justify-content: space-between;
 
   .appbar-toolbar {
-    background-color: rgb(35, 156, 187);
+    background-color: $secondaryColor;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,5 +30,19 @@
   .firmen-name {
     font-weight: bold;
     font-size: 2rem;
+  }
+}
+
+.nav-menu-item {
+  color: $primaryColor;
+  opacity: .7;
+  transition: ease-in-out .4s;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+    font-weight: bold;
+    transform: scale(1.1);
+
   }
 }
