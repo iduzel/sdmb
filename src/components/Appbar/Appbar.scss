@@ -1,0 +1,32 @@
+.appbar {
+  display: flex;
+  justify-content: space-between;
+
+  .appbar-toolbar {
+    background-color: rgb(35, 156, 187);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+
+  .sdmb-logo-box {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .firmen-name {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
